@@ -15,4 +15,4 @@ WORKDIR /app
 RUN pip install -r requirements.txt
 # provide a command to run on container start. 
 # For example, start the `app.py` application.
-CMD [ "python", "app.py" ]
+CMD ["python", "app.py"]
