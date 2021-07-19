@@ -42,4 +42,4 @@ jobs:
           file: ./python-helloworld/Dockerfile
           platforms: linux/amd64
           push: true
-          tags: darklemon/python-helloworld:v1.0.0
+          tags: darklemon/python-helloworld:v1.1.0
