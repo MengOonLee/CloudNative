@@ -25,7 +25,7 @@ spec:
       - image: darklemon/python-helloworld:latest
         imagePullPolicy: IfNotPresent
         name: python-helloworld
-        resource:
+        resources:
           requests:
             cpu: 50m
             memory: 256Mi
