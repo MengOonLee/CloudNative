@@ -23,8 +23,8 @@ spec:
   # under the `python-manifests` folder. Additionally, the latest commit within
   # the repository is targeted or `HEAD`.
   source:
-    path: python-manifests
-    repoURL: https://github.com/MengOonLee/cloud_native/argocd
+    path: argocd/python-manifests
+    repoURL: https://github.com/MengOonLee/cloud_native
     targetRevision: HEAD
   # Set the sync policy.
   # If left empty, the sync policy will default to manual.
