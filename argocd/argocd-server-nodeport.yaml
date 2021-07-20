@@ -1,3 +1,5 @@
+# Create the NodePort service for ArgoCD server by using the
+# `kubectl apply -f argocd-server-nodeport.yaml` command
 apiVersion: v1
 kind: Service
 metadata:
